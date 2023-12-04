@@ -2,9 +2,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+import os
 sns.set(style='dark')
 
-day = pd.read_csv("data\day.csv")
+day_csv_path = os.path.join("data", "day.csv")
+day = pd.read_csv(day_csv_path)
 
 # create_daily_sharing_df() digunakan untuk menyiapkan daily_sharing_df
 def create_daily_sharing_df(df):
