@@ -1,7 +1,8 @@
 GitPython==3.1.40
-matplotlib @ file:///C:/ci/matplotlib-suite_1634667159685/work
-matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
-numpy @ file:///C:/ci/numpy_and_numpy_base_1626271900803/work
-pandas @ file:///C:/ci/pandas_1635506685681/work
-seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
+matplotlib
+seaborn
 streamlit==1.12.0
+numpy==1.25.1
+pandas==2.0.3
+streamlit
+pip==23.2
