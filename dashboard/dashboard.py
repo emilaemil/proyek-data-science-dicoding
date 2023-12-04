@@ -82,7 +82,7 @@ with st.sidebar:
     left_co, cent_co, last_co = st.columns(3)
     with cent_co:
         st.image(
-            "logo.png", width=100
+            "dashboard/logo.png", width=100
         )
     
     # Mengambil start_date & end_date dari date_input
