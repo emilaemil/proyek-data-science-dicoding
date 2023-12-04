@@ -7,7 +7,17 @@ conda activate main-ds
 pip install numpy pandas matplotlib seaborn streamlit
 ```
 
-## Run steamlit app
-```
+## Run streamlit app
+```bash
 streamlit run dashboard.py
+```
+
+## Link streamlit app
+```
+[https://bike-sharing-daily-analysis.streamlit.app/]
+```
+
+## Screenshot
+```
+![image.png]( {link gambar} )
 ```
