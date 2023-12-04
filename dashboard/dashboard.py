@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 sns.set(style='dark')
 
-day = pd.read_csv("D:\Teknik Informatika\Dicoding\Data Science\Bike-sharing-analisis\data\day.csv")
+day = pd.read_csv("data\day.csv")
 
 # create_daily_sharing_df() digunakan untuk menyiapkan daily_sharing_df
 def create_daily_sharing_df(df):
@@ -61,7 +61,7 @@ def create_rfm_df(df):
     return rfm_df
 
 # load berkas main_data.csv sebagai sebuah DataFrame
-main_df = pd.read_csv("D:\Teknik Informatika\Dicoding\Data Science\Bike-sharing-analisis\main_data.csv")
+main_df = pd.read_csv("main_data.csv")
 
 # mengurutkan DataFrame berdasarkan order_date
 # memastikan kedua kolom tersebut bertipe datetime
