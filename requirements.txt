@@ -1,6 +1,6 @@
 pandas==2.0.3
 numpy==1.25.1
-matplotlib.pyplot
+matplotlib
 seaborn
 streamlit
 pip==23.3.1
