@@ -1,9 +1,9 @@
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
+alabaster
 altair==4.1.0
-anaconda-client @ file:///C:/ci/anaconda-client_1635342725944/work
+anaconda-client 
 anaconda-navigator==2.1.1
-anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1626085644852/work
-anyio @ file:///C:/ci/anyio_1620153135622/work/dist
+anaconda-project 
+anyio
 appdirs==1.4.4
 argh==0.26.2
 argon2-cffi @ file:///C:/ci/argon2-cffi_1613037869401/work
@@ -169,6 +169,7 @@ pep8==1.7.1
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 Pillow==8.4.0
+pip==23.3.1
 pkginfo==1.7.1
 pluggy @ file:///C:/ci/pluggy_1615976440052/work
 ply==3.11
