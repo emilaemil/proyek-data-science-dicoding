@@ -163,7 +163,7 @@ st.subheader("Customer Demographics")
 col1, col2 = st.columns(2)
 
 with col1:
-    fig, ax = plt.subplots(figsize=(20, 10))
+    fig, ax = plt.subplots(figsize=(20, 15))
     
     colors = ["#D3D3D3", "#90CAF9", "#A7F9EA", "#FDD2FC", "#FBF7D3"]
 
@@ -182,7 +182,7 @@ with col1:
     st.pyplot(fig)
 
 with col2:
-    fig, ax = plt.subplots(figsize=(20, 10))
+    fig, ax = plt.subplots(figsize=(20, 15))
     
     colors = ["#D3D3D3", "#90CAF9", "#A7F9EA", "#FDD2FC", "#FBF7D3"]
 
@@ -244,4 +244,4 @@ ax[2].tick_params(axis='x', labelsize=35)
 
 st.pyplot(fig)
 
-st.caption('Copyright (c) Bike Sharing 2023')
+st.caption('Copyright (c) Bike Sharing Analysis 2023')
